@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { CinemaComponent } from './cinema/cinema.component';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { VilleComponent } from './ville/ville.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CinemaComponent
+    CinemaComponent,
+    VilleComponent,
   ],
   imports: [
     BrowserModule,

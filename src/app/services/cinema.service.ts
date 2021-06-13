@@ -32,4 +32,9 @@ export class CinemaService {
     return this.http.post(this.host+"/payerTickets",dataForm);
   }
 
+  saveNewVille(form:any){
+    return this.http.post(this.host+"/newville",form);
+  }
+
+
 }

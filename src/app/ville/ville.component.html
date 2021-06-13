@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="row">
+<div class="col-md-9">
+<div class="card">
+    <h5 class="card-header bg-success">Nouvelle Ville</h5>
+    <div class="card-body">    
+        <form #f="ngForm"(ngSubmit)="saveVille(f.value)">
+            <div class="form-group row">
+              <label for="inputname" class="col-sm-2 col-form-label">Ville</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" name="name" ngModel>
+              </div>
+            </div>
+             <button type="submit" class="btn btn-primary ">Ajouter</button>
+          </form> 
+    </div>
+  </div>
+  
+</div>
+
